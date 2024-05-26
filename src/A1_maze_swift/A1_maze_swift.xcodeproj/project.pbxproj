@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9204B1812BB9CA030040078D /* CavesModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204B1802BB9CA030040078D /* CavesModalView.swift */; };
+		927EE9472BA235AC00147605 /* A1_maze_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9462BA235AC00147605 /* A1_maze_swiftApp.swift */; };
+		927EE9492BA235AC00147605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9482BA235AC00147605 /* ContentView.swift */; };
+		927EE94B2BA235AD00147605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927EE94A2BA235AD00147605 /* Assets.xcassets */; };
+		927EE94E2BA235AD00147605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927EE94D2BA235AD00147605 /* Preview Assets.xcassets */; };
+		927EE9592BA2362900147605 /* CavesFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9552BA2362900147605 /* CavesFile.swift */; };
+		927EE95A2BA2362900147605 /* MazeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9562BA2362900147605 /* MazeFile.swift */; };
+		927EE95B2BA2362900147605 /* EllersGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9572BA2362900147605 /* EllersGenerator.swift */; };
+		927EE95C2BA2362900147605 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EE9582BA2362900147605 /* ModalView.swift */; };
+		928250392BE3C8FA004C9382 /* CavesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928250382BE3C8FA004C9382 /* CavesGenerator.swift */; };
+		9282503D2BE3CA48004C9382 /* A1_CavesGeneneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282503C2BE3CA48004C9382 /* A1_CavesGeneneratorTests.swift */; };
+		92F4F39A2BBF3F05001E1F77 /* A1_maze_swift_EllersGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49387A142BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49387A162BB46F0B001F108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 927EE93B2BA235AC00147605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927EE9422BA235AC00147605;
+			remoteInfo = A1_maze_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49387A122BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A1_maze_swift_EllersGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49387A142BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_maze_swift_EllersGeneratorTests.swift; sourceTree = "<group>"; };
+		9204B1802BB9CA030040078D /* CavesModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavesModalView.swift; sourceTree = "<group>"; };
+		927EE9432BA235AC00147605 /* A1_maze_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1_maze_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927EE9462BA235AC00147605 /* A1_maze_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_maze_swiftApp.swift; sourceTree = "<group>"; };
+		927EE9482BA235AC00147605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		927EE94A2BA235AD00147605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927EE94D2BA235AD00147605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		927EE94F2BA235AD00147605 /* A1_maze_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = A1_maze_swift.entitlements; sourceTree = "<group>"; };
+		927EE9552BA2362900147605 /* CavesFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CavesFile.swift; sourceTree = "<group>"; };
+		927EE9562BA2362900147605 /* MazeFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeFile.swift; sourceTree = "<group>"; };
+		927EE9572BA2362900147605 /* EllersGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllersGenerator.swift; sourceTree = "<group>"; };
+		927EE9582BA2362900147605 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		928250382BE3C8FA004C9382 /* CavesGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavesGenerator.swift; sourceTree = "<group>"; };
+		9282503C2BE3CA48004C9382 /* A1_CavesGeneneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_CavesGeneneratorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49387A0F2BB46F0B001F108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927EE9402BA235AC00147605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49387A132BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49387A142BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.swift */,
+				9282503C2BE3CA48004C9382 /* A1_CavesGeneneratorTests.swift */,
+			);
+			path = A1_maze_swift_EllersGeneratorTests;
+			sourceTree = "<group>";
+		};
+		49A659F62BBC58D500034B18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				927EE9482BA235AC00147605 /* ContentView.swift */,
+				927EE9582BA2362900147605 /* ModalView.swift */,
+				9204B1802BB9CA030040078D /* CavesModalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A659F72BBC58F300034B18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				927EE9552BA2362900147605 /* CavesFile.swift */,
+				928250382BE3C8FA004C9382 /* CavesGenerator.swift */,
+				927EE9572BA2362900147605 /* EllersGenerator.swift */,
+				927EE9562BA2362900147605 /* MazeFile.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		927EE93A2BA235AC00147605 = {
+			isa = PBXGroup;
+			children = (
+				927EE9452BA235AC00147605 /* A1_maze_swift */,
+				49387A132BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests */,
+				927EE9442BA235AC00147605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		927EE9442BA235AC00147605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927EE9432BA235AC00147605 /* A1_maze_swift.app */,
+				49387A122BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927EE9452BA235AC00147605 /* A1_maze_swift */ = {
+			isa = PBXGroup;
+			children = (
+				927EE9462BA235AC00147605 /* A1_maze_swiftApp.swift */,
+				49A659F62BBC58D500034B18 /* Views */,
+				49A659F72BBC58F300034B18 /* ViewModel */,
+				927EE94F2BA235AD00147605 /* A1_maze_swift.entitlements */,
+				927EE94A2BA235AD00147605 /* Assets.xcassets */,
+				927EE94C2BA235AD00147605 /* Preview Content */,
+			);
+			path = A1_maze_swift;
+			sourceTree = "<group>";
+		};
+		927EE94C2BA235AD00147605 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				927EE94D2BA235AD00147605 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49387A112BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49387A1A2BB46F0B001F108E /* Build configuration list for PBXNativeTarget "A1_maze_swift_EllersGeneratorTests" */;
+			buildPhases = (
+				49387A0E2BB46F0B001F108E /* Sources */,
+				49387A0F2BB46F0B001F108E /* Frameworks */,
+				49387A102BB46F0B001F108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49387A172BB46F0B001F108E /* PBXTargetDependency */,
+			);
+			name = A1_maze_swift_EllersGeneratorTests;
+			productName = A1_maze_swift_EllersGeneratorTests;
+			productReference = 49387A122BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		927EE9422BA235AC00147605 /* A1_maze_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927EE9522BA235AD00147605 /* Build configuration list for PBXNativeTarget "A1_maze_swift" */;
+			buildPhases = (
+				927EE93F2BA235AC00147605 /* Sources */,
+				927EE9402BA235AC00147605 /* Frameworks */,
+				927EE9412BA235AC00147605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A1_maze_swift;
+			productName = A1_maze_swift;
+			productReference = 927EE9432BA235AC00147605 /* A1_maze_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927EE93B2BA235AC00147605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					49387A112BB46F0B001F108E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 927EE9422BA235AC00147605;
+					};
+					927EE9422BA235AC00147605 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 927EE93E2BA235AC00147605 /* Build configuration list for PBXProject "A1_maze_swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927EE93A2BA235AC00147605;
+			productRefGroup = 927EE9442BA235AC00147605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927EE9422BA235AC00147605 /* A1_maze_swift */,
+				49387A112BB46F0B001F108E /* A1_maze_swift_EllersGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49387A102BB46F0B001F108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927EE9412BA235AC00147605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927EE94E2BA235AD00147605 /* Preview Assets.xcassets in Resources */,
+				927EE94B2BA235AD00147605 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49387A0E2BB46F0B001F108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F4F39A2BBF3F05001E1F77 /* A1_maze_swift_EllersGeneratorTests.swift in Sources */,
+				9282503D2BE3CA48004C9382 /* A1_CavesGeneneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927EE93F2BA235AC00147605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928250392BE3C8FA004C9382 /* CavesGenerator.swift in Sources */,
+				927EE95C2BA2362900147605 /* ModalView.swift in Sources */,
+				927EE9592BA2362900147605 /* CavesFile.swift in Sources */,
+				927EE9492BA235AC00147605 /* ContentView.swift in Sources */,
+				927EE95A2BA2362900147605 /* MazeFile.swift in Sources */,
+				927EE95B2BA2362900147605 /* EllersGenerator.swift in Sources */,
+				927EE9472BA235AC00147605 /* A1_maze_swiftApp.swift in Sources */,
+				9204B1812BB9CA030040078D /* CavesModalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49387A172BB46F0B001F108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927EE9422BA235AC00147605 /* A1_maze_swift */;
+			targetProxy = 49387A162BB46F0B001F108E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49387A182BB46F0B001F108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ak.A1-maze-swift-EllersGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A1_maze_swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/A1_maze_swift";
+			};
+			name = Debug;
+		};
+		49387A192BB46F0B001F108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ak.A1-maze-swift-EllersGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A1_maze_swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/A1_maze_swift";
+			};
+			name = Release;
+		};
+		927EE9502BA235AD00147605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		927EE9512BA235AD00147605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		927EE9532BA235AD00147605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = A1_maze_swift/A1_maze_swift.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"A1_maze_swift/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School21.A1-maze-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		927EE9542BA235AD00147605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = A1_maze_swift/A1_maze_swift.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"A1_maze_swift/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School21.A1-maze-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49387A1A2BB46F0B001F108E /* Build configuration list for PBXNativeTarget "A1_maze_swift_EllersGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49387A182BB46F0B001F108E /* Debug */,
+				49387A192BB46F0B001F108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927EE93E2BA235AC00147605 /* Build configuration list for PBXProject "A1_maze_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927EE9502BA235AD00147605 /* Debug */,
+				927EE9512BA235AD00147605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927EE9522BA235AD00147605 /* Build configuration list for PBXNativeTarget "A1_maze_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927EE9532BA235AD00147605 /* Debug */,
+				927EE9542BA235AD00147605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927EE93B2BA235AC00147605 /* Project object */;
+}
